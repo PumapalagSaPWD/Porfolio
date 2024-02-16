@@ -1,0 +1,125 @@
+header {
+    background-color: #fc0f0f;
+    padding: 20px 0;
+}
+
+body {
+	background-color: #33c4ab;
+}
+
+nav ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgba(227, 228, 193, 0.719);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #615bc7;
+}
+
+img {
+    border-radius: 100px;
+}
+
+.hero {
+    color: rgb(224, 222, 90);
+	margin-bottom: 500px;
+	
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+
+.about {
+	margin-bottom: 300px;
+
+
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact {
+    background-color: #85fd4d;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: #36996b;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #dd4b4b;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #66a4ced3;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2756ee;
+    color: #150d03;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d8c306;
+}
+
+footer {
+    background-color: #d8ca0a;
+    color: rgb(19, 232, 240);
+    text-align: center;
+    padding: 20px 0;
+}
